@@ -7,3 +7,6 @@ criar arquivo prettier.config.js
 module.exports = {
   plugins: ['prettier-plugin-tailwindcss'],
 }
+
+
+npm i react-helmet-async
