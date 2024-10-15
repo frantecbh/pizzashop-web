@@ -10,3 +10,7 @@ module.exports = {
 
 
 npm i react-helmet-async
+
+npm install react-hook-form
+npm i zod
+npm i @hookform/resolvers
