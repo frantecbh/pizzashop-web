@@ -5,6 +5,7 @@ import { Label } from '@/components/ui/label'
 
 import { Helmet } from 'react-helmet-async'
 import { useForm } from 'react-hook-form'
+import { toast } from 'sonner'
 import { z } from 'zod'
 
 const singinForm = z.object({
@@ -20,8 +21,24 @@ export const SingIn = () => {
     formState: {isSubmitting}  
   } = useForm<SingInForm>()
   async function handleSignIn(data: SingInForm) {
-    console.log(data)
-    await new Promise((resolve) => setTimeout(resolve, 2000))
+
+    try {
+      console.log(data)
+      await new Promise((resolve) => setTimeout(resolve, 2000))
+     
+      toast.success('Envianmos um link de authenticação para seu e-mail', {
+        action: {
+          label: 'Reenviar',
+          onClick: () => {handleSignIn(data)}
+        }
+      })
+      
+    } catch (error) { 
+      toast.error('Credenciais inválidas')
+    }
+
+
+    
   }
 
 
