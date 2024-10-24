@@ -28,7 +28,7 @@ export const OrderDetails = () => {
             <TableCell className="flex justify-end">
               <div className="flex items-center gap-2">
                 <span className="h-2 w-2 rounded-full bg-slate-400" />
-                <span className="font-medium text-primary-foreground">
+                <span className="font-medium text-muted-foreground">
                   Pendnete
                 </span>
               </div>
@@ -38,7 +38,7 @@ export const OrderDetails = () => {
             <TableCell className="text-muted-foreground">Cliente</TableCell>
             <TableCell className="flex justify-end">
               <div className="flex items-center gap-2">
-                <span className="font-medium text-primary-foreground">
+                <span className="font-medium text-muted-foreground">
                   Francisco Menezes
                 </span>
               </div>
@@ -48,7 +48,7 @@ export const OrderDetails = () => {
             <TableCell className="text-muted-foreground">Contato</TableCell>
             <TableCell className="flex justify-end">
               <div className="flex items-center gap-2">
-                <span className="font-medium text-primary-foreground">
+                <span className="font-medium text-muted-foreground">
                   (31)-99999-9999
                 </span>
               </div>
@@ -58,7 +58,7 @@ export const OrderDetails = () => {
             <TableCell className="text-muted-foreground">Email</TableCell>
             <TableCell className="flex justify-end">
               <div className="flex items-center gap-2">
-                <span className="font-medium text-primary-foreground">
+                <span className="font-medium text-muted-foreground">
                   franciscomenezesbh@gmail.com
                 </span>
               </div>
@@ -70,7 +70,7 @@ export const OrderDetails = () => {
             </TableCell>
             <TableCell className="flex justify-end">
               <div className="flex items-center gap-2">
-                <span className="font-medium text-primary-foreground">
+                <span className="font-medium text-muted-foreground">
                   há 3 minutos
                 </span>
               </div>
