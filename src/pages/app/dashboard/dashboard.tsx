@@ -4,6 +4,7 @@ import { CardTotalPedidosMes } from './total-pedidos-mes-card'
 import { CardTotalPedidosDia } from './total-pedidos-dia-card'
 import { CardTotalPedidosCanceladosMes } from './total-pedidos-cancelados-mes'
 import { RevenueChart } from './revenue-chart'
+import { PopularProductsCharts } from './popular-products-charts'
 
 export const Dashboard = () => {
   return (
@@ -20,6 +21,7 @@ export const Dashboard = () => {
 
         <div className="grid grid-cols-9 gap-4">
           <RevenueChart />
+          <PopularProductsCharts />
         </div>
       </div>
     </>
